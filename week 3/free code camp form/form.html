@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Evidavinci's survey form</h1>
+    <p>Thank you for taking your time to help inprove my services</p>
+    <form action="#">
+        <fieldset>
+            <label for="name">Name <input type="text" name="name" id="name" placeholder="Enter your name"></label>
+            <label for="email">Email <input type="email" name="email" id="email" placeholder="Enter your email"></label>
+            <label for="age">Age (optional) <input type="number" name="number" id="age" placeholder="Age"></label>
+            <label for="role">Which option best describes your current role? 
+                <select name="role" id="role">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer Not To Say</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="yesno">
+            <p>Do you like the stucture of this sample survey</p>
+            <label for="yes"> <input type="radio" name="yesno" id="yes"> Yes</label>
+            <label for="no"> <input type="radio" name="yesno" id="no"> No</label>
+            <label for="neither"> <input type="radio" name="yesno" id="neither"> Probably</label>
+            <label for="feature">Which part did u prefer the most 
+                <select name="feature" id="feature"> 
+                    <option value="1">Background</option>
+                    <option value="2">Positioning</option>
+                    <option value="3">Interaction</option>
+                    <option value="4">Everything</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>which part needs improvement <em>(click if necessary)</em></p>
+            <label for="interaction"> <input type="checkbox" id="interaction"> Interaction</label>
+            <label for="colour-choice"> <input type="checkbox" id="colour-choice"> colour-choice</label>
+        </fieldset>
+        <fieldset>
+        <label for="comment">Any comments or suggestion 
+            <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+        </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <script src="./form.js"></script>
+</body>
+</html>
