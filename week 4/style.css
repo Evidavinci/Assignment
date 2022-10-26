@@ -1,0 +1,63 @@
+main {
+    max-width: 700px;
+    width: 85%;
+    margin: 6em auto auto auto;
+    background: linear-gradient(240deg, rgb(89, 223, 96), rgb(33, 80, 33));
+    border-radius: 10px;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h3, .success {
+  text-align: center;
+}
+label {
+    margin: 1em 0;
+}
+input, button {
+    padding: 1em 0.5em;
+    border-radius: 5px;
+}
+input[type="submit"], button {
+    width: 30%;
+    max-width: 200px;
+    display: block;
+    color: white;
+    margin: 1em auto;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(240deg, rgb(89, 223, 96), rgb(33, 80, 33));
+}
+label, input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0;
+}
+
+/* additional style for register page */
+
+select {
+    padding: 0;
+    height: 3em;
+}
+input[type="color"] {
+    width: 100px;
+    padding: unset;
+}
+
+/* additionl style for success */
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
