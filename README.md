@@ -1,2 +1,2 @@
 # Assignment
-this project coontains assignment from week 3 (portfolio page)
+this project coontains assignment from week 5 (layouts)
